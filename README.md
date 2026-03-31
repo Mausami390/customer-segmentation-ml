@@ -96,14 +96,14 @@ customer-segmentation-project/
 
 ## Methodology
 
-### 1️⃣ Data Exploration & Cleaning
+### 1️ Data Exploration & Cleaning
 
 **Challenges Addressed:**
-- ❌ Missing CustomerIDs (135,080 rows - 24.93%)
-- ❌ Duplicate records (5,268 rows)
-- ❌ Cancelled orders (9,288 rows)
-- ❌ Negative quantities (10,624 rows - returns)
-- ❌ Invalid prices (2,517 rows)
+- Missing CustomerIDs (135,080 rows - 24.93%)
+- Duplicate records (5,268 rows)
+- Cancelled orders (9,288 rows)
+- Negative quantities (10,624 rows - returns)
+- Invalid prices (2,517 rows)
 
 **Solution:** Comprehensive data cleaning pipeline removing all invalid records
 
@@ -115,7 +115,7 @@ customer-segmentation-project/
 
 ---
 
-### 2️⃣ RFM Analysis
+### 2️ RFM Analysis
 
 **Methodology:**
 Calculated three key metrics for each customer:
@@ -141,7 +141,7 @@ Divided customers into **quartiles** (1-4 scores) for each metric, creating **9 
 
 ---
 
-### 3️⃣ K-Means Machine Learning Clustering
+### 3️ K-Means Machine Learning Clustering
 
 **Feature Engineering:**
 - Used RFM values as features
@@ -168,7 +168,7 @@ Divided customers into **quartiles** (1-4 scores) for each metric, creating **9 
 
 ---
 
-### 4️⃣ PCA Visualization
+### 4️ PCA Visualization
 
 Applied **Principal Component Analysis (PCA)** to visualize 3D RFM data in 2D space:
 - First component explains **55.5% of variance**
